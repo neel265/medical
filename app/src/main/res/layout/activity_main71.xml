@@ -1,0 +1,58 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:id="@+id/ce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider"
+            android:layout_width="wrap_content"
+            android:layout_height="410dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="2"
+            app:sliderStartAutoCycle="true">
+
+        </com.smarteist.autoimageslider.SliderView>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="290dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Beato Curv-Blood Glucose 50Test MRP 700"
+            android:textColor="#0C0B0B"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="336dp"
+            android:layout_height="1138dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/beato_curv_mobile_glucometer_test_strips_come_with_a_complete_hygiene_check_and_are_packed_in_a_small_airtight_box_for_complete_protection_from_dust_bacteria_the_strips_are_of_premium_quality_and_instantly_draws_off_blood_when_the_pricked_finger_is_brought_near_the_strip_these_round_lancets_are_constructed_to_reduce_the_amount_of_pain_you_feel_while_pricking_yourself_and_provide_accurate_glucose_test_readings_the_tip_is_so_thin_that_you_will_hardly_feel_it_going_through_your_skin_only_a_tiny_prick_is_enough_to_draw_a_decent_amount_of_blood_key_features_of_beato_curv_strips_greater_shelf_life_easy_to_handle_very_flexible_tiny_blood_sample_0_6ul_key_features_of_round_lancets_designed_for_comfortable_glucose_testing_thinnest_needle_virtually_pain_free_testing_recommended_storage_tip_make_sure_to_keep_the_strips_away_from_direct_sunlight_or_rain_always_keep_them_in_a_cool_and_dry_area_the_ideal_temperature_for_storage_is_1_30_degree_celsius_do_not_freeze_these_strips_with_relatively_longer_shelf_life_these_sterile_lancets_can_be_stored_for_the_maximum_period"
+            android:textColor="#0C0B0B"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

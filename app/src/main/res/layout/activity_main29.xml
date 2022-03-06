@@ -1,0 +1,59 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:id="@+id/ce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="2"
+            app:sliderStartAutoCycle="true">
+
+        </com.smarteist.autoimageslider.SliderView>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="253dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="DR Morepen Quit Quit Mosquito MRP 40"
+            android:textColor="#0C0B0B"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="877dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/dr_morepen_quit_out_is_a_non_sticky_mosquito_repellent_cream_that_provides_maximum_protection_from_deadly_mosquitoes_anytime_anywhere_its_unique_mosquito_repellent_formulation_is_used_to_provide_a_shield_from_pesky_disease_carriers_like_mosquitoes_it_acts_as_a_barrier_to_various_diseases_like_dengue_chikungunya_malaria_etc_it_helps_provide_skin_nourishment_with_vitamin_e_almond_oil_making_your_skin_healthy_and_safe_it_contains_no_harmful_chemicals_it_is_also_ideal_to_be_used_both_in_indoor_and_outdoor_locations"
+            android:textColor="#0C0B0B"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

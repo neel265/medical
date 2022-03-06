@@ -1,0 +1,58 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:id="@+id/ce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider"
+            android:layout_width="wrap_content"
+            android:layout_height="410dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="2"
+            app:sliderStartAutoCycle="true">
+
+        </com.smarteist.autoimageslider.SliderView>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="253dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Episoft Ac spf 30 Cream 75gm MRP 471"
+            android:textColor="#0C0B0B"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="877dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginRight="30dp"
+            android:text="Episoft AC SPF 30 Cream is a sunscreen that has moisturising properties. It is gentle on your skin and protects you from the ultraviolet A (UVA) and ultraviolet B (UVB) rays of the sun. It replenishes your skin while protecting it and does not contain any added fragrance or paraben. This cream works efficiently on acne-prone skin as well as dry skin. It reduces the darkening of the skin and protects you from getting sunburn. This sunscreen contains Propylene glycol, D- Panthenol, Caprylic Triglyceride and Glycerine. These help in hydrating, nourishing and moisturising the skin. Episoft AC SPF 30 Cream is dermatologically tested and has no skin irritants. Since it is lightweight, it spreads across the skin with ease and acts as a non-greasy barrier that protects you from the environment."
+            android:textColor="#0C0B0B"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

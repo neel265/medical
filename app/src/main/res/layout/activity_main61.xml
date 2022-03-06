@@ -1,0 +1,58 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:id="@+id/ce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider"
+            android:layout_width="wrap_content"
+            android:layout_height="410dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="2"
+            app:sliderStartAutoCycle="true">
+
+        </com.smarteist.autoimageslider.SliderView>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="277dp"
+            android:layout_height="92dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Suger Free Gld Sweetener Powde.. MRP 135"
+            android:textColor="#0C0B0B"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="377dp"
+            android:layout_height="554dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginRight="30dp"
+            android:text="Sugar Free gold powder helps you to cut down unwanted calories of sugar. It is a healthier alternative to regular sugar and it keeps you fit as well. It is a myth that Sugar Free is only meant for people suffering from diabetes because it is also ideal for all health-conscious people, individuals who want to manage their weight and those with health risks like obesity or cholesterol problems.  It is made from aspartame, a protein derivative that is 200 times sweeter than sugar. Sugar Free Gold is nutritious, safe and gives you the sweetness and taste of sugar but with negligible calories."
+            android:textColor="#0C0B0B"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

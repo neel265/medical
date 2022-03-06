@@ -1,0 +1,58 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:id="@+id/ce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider"
+            android:layout_width="wrap_content"
+            android:layout_height="410dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="2"
+            app:sliderStartAutoCycle="true">
+
+        </com.smarteist.autoimageslider.SliderView>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="253dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Seband Clear Face Foam-150ml MRP 551"
+            android:textColor="#0C0B0B"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="877dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginRight="30dp"
+            android:text="Sebamed gives complete skin health management answers for all age gatherings, which support the skin's characteristic obstruction with pH 5.5. The skin health management arrangements incorporate Age Defense, Clear Face, and Baby Sebamed. All Sebamed items are clinically tried on delicate skin and are not tried on animals.  It adequately enters the pores for gentle pore-profound purging. The new antibacterial dynamic fixing Montaline C40 is a Coconut Oil subordinate. It secures the skin against lipid disintegration during purification and gives a hydrating and smoothing impact."
+            android:textColor="#0C0B0B"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

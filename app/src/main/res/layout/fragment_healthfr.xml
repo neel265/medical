@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:id="@+id/ce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/s" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="346dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="35dp"
+                app:cardBackgroundColor="@color/browser_actions_bg_grey"
+                app:cardCornerRadius="25dp">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:text="Enjoy de-stressing."
+                    android:textColor="#131111"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="318dp"
+                    android:layout_height="614dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginRight="25dp"
+                    android:text="Experts recommend regular exercise, meditation and breathing techniques to reduce stress. But even something as simple — and enjoyable — as listening to soothing music, reading a good book, soaking in a hot tub or playing with your pet can help you relax.   That's advice you should take to heart because prolonged stress can cause or exacerbate a number of health problems, including heart disease, stroke, high blood pressure, depression, ulcers, irritable bowel syndrome, migraines and obesity.  Don't have a lot of time? Don't let that stress you out. As with exercise, even brief periods of relaxation are beneficial.  Spending even 10 minutes at a time doing something you enjoy can go a long way toward beating the stressors of everyday life. Just reading one chapter or taking your dog for a few laps around the block will help you feel calmer, more refreshed and more energized.  If you can't take a full break from whatever you're doing, try simply taking a few slow, deep breaths in that moment. When you slow down your breathing, it helps you relax. This relaxation response releases body chemicals that relieve stress and may improve immune function.  Deep breathing can also lower your resting heart rate. People with lower resting heart rates are typically in better physical condition than those with higher rates."
+                    android:textColor="#0B0909"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+        </FrameLayout>
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="25dp"
+            android:background="#AE2E2E" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/f" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="308dp"
+            android:layout_height="368dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="35dp"
+            app:cardBackgroundColor="@color/browser_actions_bg_grey"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="123dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="15dp"
+                android:text=" Put away the salt. "
+                android:textColor="#121010"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="277dp"
+                android:layout_height="319dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:text="A saltshaker on the dining table makes it all too easy to consume excess salt, which can lead to high blood pressure. So put the shaker in a cabinet or pantry and bring it out only when you're cooking.  It's also a good idea to taste your food before you salt it. You may find it doesn't need more.  You can also try spicing up your food with lemon or lime juice, garlic, red pepper flakes, herbs or a salt-free seasoning blend. Stock your fridge and pantry with your favorite fresh and dried herbs so you'll always have them on hand to flavor your foods."
+                android:textColor="#120F0F"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+        <View
+            android:id="@+id/view15"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#B53232" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/n" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="303dp"
+            android:layout_height="338dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            app:cardBackgroundColor="@color/browser_actions_bg_grey"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="125dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="15dp"
+                android:text=" Get to bed earlier."
+                android:textColor="#0E0D0D"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="280dp"
+                android:layout_height="338dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:text="Most of us don’t get the seven or more hours of sleep adults need.  Over time, a shortage of shut-eye can raise your risk of a heart attack or stroke — regardless of your age, weight or exercise habits.  If you're consistently sleep-deprived, going to bed even 15 minutes earlier every night could help. Also set a regular sleep and wake schedule, and stick to it — even on days off."
+                android:textColor="#151414"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+        <View
+            android:id="@+id/view7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#AE1E1E" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/l" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="305dp"
+            android:layout_height="471dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="35dp"
+            app:cardBackgroundColor="@color/browser_actions_bg_grey"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="177dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="15dp"
+                android:text="Have a glass of red wine."
+                android:textColor="#121010"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="268dp"
+                android:layout_height="412dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:text="Studies have shown that the powerful antioxidants found in red wine protect against heart disease, colon cancer, anxiety and depression. So unless there is a medical reason why you shouldn't imbibe, go ahead and enjoy that glass of merlot with your nightly meal — you can even toast to your good health.  But drink in moderation. Just as a small amount of red wine has health benefits, too much alcohol — even red wine — can cause a variety of health problems, including liver and kidney disease and cancer.  Women, in particular, need to be careful about alcohol consumption. They are at higher overall risk of liver problems than men, so they are more likely to experience liver problems from smaller amounts of alcohol.  For a healthy man, two drinks a day is not likely to do harm; women, on the other hand, should limit themselves to one daily alcoholic beverage"
+                android:textColor="#131212"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+        <View
+            android:id="@+id/view8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#B32C2C" />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+

@@ -1,0 +1,59 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:id="@+id/ce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="2"
+            app:sliderStartAutoCycle="true">
+
+        </com.smarteist.autoimageslider.SliderView>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="253dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Beardo Hair Fall Control Shampoo...MRP 301"
+            android:textColor="#0C0B0B"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="388dp"
+            android:layout_height="666dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/shape_your_beard_like_a_pro_get_your_desired_beard_style_with_our_beardo_beard_shaping_styling_tool_and_get_the_best_beard_shape_at_home_its_design_makes_it_easy_to_form_perfect_lines_and_achieve_symmetry_combine_with_clippers_or_a_razor_to_achieve_an_accurate_trim_or_crisp_shave_this_smart_and_simple_tool_is_specifically_designed_to_give_you_a_good_beard_shape_you_get_a_multitude_of_shaping_choices_and_styling_options_adjust_the_curve_angle_and_use_different_levelling_measurements_to_try_something_new_even_shape_your_neckline_with_ease_learn_how_to_use_beard_shaping_tool_why_do_you_need_a_beard_shaping_tool_beardo_beard_shaping_tool_can_provide_the_best_styles_for_your_beard_adjust_the_tool_as_per_your_convenience_it_provides_a_symmetrical_edge_and_shape_to_your_face_you_can_adjust_the_angle_and_give_yourself_the_perfect_beard_look_level_your_measurements_for_trying_out_all_new_mustache_beard_styles_this_tool_gives_you_many_beard_styling_options_by_providing_options_to_style_your_neckline_easily"
+            android:textColor="#0C0B0B"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

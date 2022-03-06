@@ -1,0 +1,59 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:id="@+id/ce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="2"
+            app:sliderStartAutoCycle="true">
+
+        </com.smarteist.autoimageslider.SliderView>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="253dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Pee Safe -Tollet MRP 120"
+            android:textColor="#0C0B0B"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="359dp"
+            android:layout_height="958dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginRight="30dp"
+            android:text="Pee Safe is an instant Toilet Seat Sanitizer Spray that protects against germs without leaving any residual. It consists of IPA Formulation, which starts action within 5 seconds of application. The small and compact bottle makes it travel-friendly, providing you protection and reducing the risk of bathroom borne diseases like diarrhoea and urinary tract infection (UTIs).  Unhygienic conditions are a major cause of concern for all. These conditions are not only present in your room or kitchen but also in your washrooms. Public restrooms of schools, offices, malls or restaurants can pose a threat of harmful toilet-borne diseases. To provide a clean and safe urinal experience, Pee Safe Toilet Seat Sanitizer is here to the rescue. Pee Safe Toilet Seat Sanitizer not only sanitizes the toilet seat but also fights the foul odour present in the washroom.  The toilet seat sanitiser comes packed with the quirky mint fragrance for an odour-less experience as well. For best results, spray on the surface from a distance of 25 cms and wait for 10 seconds for the spray to evaporate.  "
+            android:textColor="#0C0B0B"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

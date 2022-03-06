@@ -1,0 +1,59 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:id="@+id/ce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="323dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="2"
+            app:sliderStartAutoCycle="true">
+
+        </com.smarteist.autoimageslider.SliderView>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="274dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Indulekha Bringha Hair Oil Bottle MRP 208"
+            android:textColor="#0C0B0B"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="687dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/indulekha_bringha_oil_is_an_ayurvedic_medicine_to_prevent_hair_fall_and_promote_hair_growth_it_is_a_100_natural_ayurvedic_oil_that_has_been_clinically_proven_to_reduce_hair_fall_and_grows_new_hair_in_4_months_it_is_proven_on_real_male_and_female_consumers_having_mild_to_severe_hair_fall_it_is_enriched_with_bringharaj_a_herb_known_in_ayurveda_as_quot_keshraj_quot_also_known_as_king_of_hair_extracts_from_bringharaj_plants_are_known_for_their_medicinal_properties_that_not_only_reduce_hair_fall_but_also_revive_rejuvenate_the_process_of_hair_growth_the_extracts_of_the_herbs_are_cooked_in_virgin_coconut_oil_and_are_made_to_mature_under_natural_sunlight_for_7_days_the_power_of_the_sun_and_the_potency_of_these_herbs_goes_into_making_every_bottle_of_indulekha_oil_it_s_unique_and_easy_to_apply_straight_to_the_scalp_selfie_comb_allows_oil_to_penetrate_deep_inside_the_scalp_directly_without_getting_your_hands_oily_it_has_a_100_natural_fragrance_colour_and_is_recommended_by_ayurvedic_experts_for_people_suffering_from_hair_fall"
+            android:textColor="#0C0B0B"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>
